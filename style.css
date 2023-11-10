@@ -1,0 +1,220 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    border-bottom: none;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+body {
+    background-color: #F6E7E7;
+}
+
+/* Buscador */
+#buscador {
+    clear: both;
+    float: right;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    padding-right: 80px;
+}
+button.boton {
+    background-color: #ECD7DD;
+    border-radius: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+/* este es el menu de navegacion */
+.container {
+    width: 100%;
+    max-width: 250px;
+    background-color: #ECCAD3;
+    height: 90vw;
+    display: inline-block;
+ 
+}
+.container nav li {
+    display: block;
+    text-decoration: none;
+    font-size: 16pt;
+    padding: 18px;
+    margin-left: 40px;
+    
+}
+.container img {
+    margin-left: 40px;
+}
+
+ul.nav1 {
+    padding-top: 300px;
+    font-size: 12pt;
+}
+ul.nav1 img{
+    margin-left: 60px;
+
+}
+ul.nav2 {
+    padding-top: 300px;
+}
+div.Log  {
+    display: flex;
+    align-items: center;
+}
+
+div.Log2  {
+    display: flex;
+    align-items: center;
+}
+
+div.Logo1 {
+    margin-top: 50px ;
+    padding-bottom: 90px ;
+}
+
+ul.nav2 img{
+clear: both;
+float: left;
+}
+
+/* Keep listening */
+section.Keep {
+    display: grid;
+    position: absolute;
+    left: 350px;
+    top: 150px;  
+}
+h1.titulo {
+    font-size: 36pt;
+    padding-bottom: 30px;
+    font-weight: bold;
+    
+}
+section.Keep img {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+div.principal img {
+    width: 200px;
+    height: 200px;
+}
+div.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+    /* blackpink song */
+}
+section.canciones {
+    display: grid;
+    position: absolute;
+    right: 150px;
+    top: 210px;
+}
+h2.BlackPink {
+    font-size: 24pt;
+    font-weight: bold;
+    padding: 40px;
+}
+div.alinear {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 100px;
+}
+
+/* recomendaciones */
+section.Recommended {
+    position: absolute;
+    left: 400px;
+    top: 1100px;
+}
+div.albunes {
+    display: flex;
+    gap: 100px;
+
+}
+section.Recommended img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+h2.recomendaciones {
+    font-size: 24pt;
+    padding-bottom: 50px;
+}
+h3.subtitulo {
+    font-size: 16pt;
+    font-weight: bold;
+}
+p.Artista {
+    font-size: 12pt;
+}
+
+/* current song */
+
+footer.footer {
+    
+    position: sticky;
+    background-color: #8B385B;
+    width: 98%;
+    bottom: 20px;
+    margin: 20px;
+    padding: 30px;
+
+}
+div.Love img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;   
+}
+h3.title {
+    font-size: 16pt;
+    color: #FC7E9F;
+    padding-left: 20px;
+    position: absolute;
+    top: 40px;
+}
+p.title2 {
+    font-size: 12pt;
+    color: #ECD7DD;
+    padding-left: 20px;
+    position: absolute;
+    top: 80px;
+}
+p.title3 {
+    color: #ECD7DD;
+    font-size: 16pt;
+}
+div.song {
+    display: flex;
+    align-items: center;
+}
+div.imagen1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   padding-left: 400px;
+}
+div.imagen2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    gap: 50px;
+    padding-left: 300px
+}
