@@ -23,7 +23,7 @@ body {
     display: flex;
     gap: 30px;
     margin-top: 40px;
-    padding-right: 80px;
+    padding-right: 200px;
 }
 button.boton {
     background-color: #ECD7DD;
@@ -33,55 +33,65 @@ button.boton {
 
 }
 /* este es el menu de navegacion */
+
 .container {
-    width: 100%;
+    width: 250px;
     max-width: 250px;
     background-color: #ECCAD3;
     height: 90vw;
     display: inline-block;
- 
 }
+ /* este es el logo de la pagina */
+
+div.Logo1 {
+    margin-top: 52px ;
+    padding-bottom: 100px ;
+    margin-left: 52px;
+}
+
+/* esta es la alineacion de las listas */
 .container nav li {
     display: block;
     text-decoration: none;
     font-size: 16pt;
-    padding: 18px;
-    margin-left: 40px;
+    padding-bottom: 48px;
+    margin-left: 52px;
     
 }
-.container img {
-    margin-left: 40px;
-}
 
+/* este es el espaciado de las listas */
 ul.nav1 {
-    padding-top: 300px;
+    padding-top: 165px;
     font-size: 12pt;
 }
 ul.nav1 img{
-    margin-left: 60px;
+    margin-left: 50px;
 
 }
 ul.nav2 {
-    padding-top: 300px;
+    padding-top: 354px;
 }
+
+/* esta es la alineacion de la ultima lista con las imagenes */
 div.Log  {
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+div.Log img {
+    width: 20px;
+    height: 20px;
+    
 }
 
 div.Log2  {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
-
-div.Logo1 {
-    margin-top: 50px ;
-    padding-bottom: 90px ;
-}
-
-ul.nav2 img{
-clear: both;
-float: left;
+div.Log2 img {
+    display: flex;
+    align-items: flex-start;
+    width: 29px;
+    height: 29px;    
 }
 
 /* Keep listening */
@@ -89,14 +99,18 @@ section.Keep {
     display: grid;
     position: absolute;
     left: 350px;
-    top: 150px;  
+    top: 200px;  
 }
+
+/* titulo del keep listening */
 h1.titulo {
     font-size: 36pt;
     padding-bottom: 30px;
     font-weight: bold;
     
 }
+
+/* imagen de el album */
 section.Keep img {
     width: 500px;
     height: 500px;
@@ -130,14 +144,30 @@ div.alinear {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 50px;
     gap: 100px;
+}
+div.alinear2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 100px;
+}
+div.scroll {
+
+    width: 600px;
+    height: 500px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-gutter:initial ;
 }
 
 /* recomendaciones */
 section.Recommended {
     position: absolute;
-    left: 400px;
+    left: 350px;
     top: 1100px;
 }
 div.albunes {
@@ -169,6 +199,7 @@ footer.footer {
     
     position: sticky;
     background-color: #8B385B;
+    opacity: 90%;
     width: 98%;
     bottom: 20px;
     margin: 20px;
