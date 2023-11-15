@@ -99,7 +99,7 @@ section.Keep {
     display: grid;
     position: absolute;
     left: 350px;
-    top: 200px;  
+    top: 190px;  
 }
 
 /* titulo del keep listening */
@@ -112,8 +112,8 @@ h1.titulo {
 
 /* imagen de el album */
 section.Keep img {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 20px;
 }
 div.principal img {
@@ -131,23 +131,22 @@ div.principal {
 section.canciones {
     display: grid;
     position: absolute;
-    right: 30px;
-    top: 200px;
+    right: 100px;
+    top: 210px;
 }
 h2.BlackPink {
     font-size: 24pt;
     font-weight: bold;
-    padding: 10px;
 }
 div.alinear {
     
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 60px;
     gap: 100px;
 }
-div.alinear2 {
+div.Favoritos {
     
     display: flex;
     justify-content: center;
@@ -157,7 +156,7 @@ div.alinear2 {
 }
 div.scroll {
 
-    width: 600px;
+    width: 700px;
     height: 500px;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -167,7 +166,7 @@ div.scroll {
 /* recomendaciones */
 section.Recommended {
     position: absolute;
-    left: 400px;
+    left: 350px;
     top: 1100px;
 }
 div.albunes {
@@ -176,8 +175,8 @@ div.albunes {
 
 }
 section.Recommended img {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     border-radius: 10px;
 }
 
@@ -211,21 +210,21 @@ div.Love img {
     height: 150px;
     border-radius: 10px;   
 }
-h3.title {
+h3.titulocancion {
     font-size: 16pt;
     color: #FC7E9F;
     padding-left: 20px;
     position: absolute;
     top: 40px;
 }
-p.title2 {
+p.grupo {
     font-size: 12pt;
     color: #ECD7DD;
     padding-left: 20px;
     position: absolute;
     top: 80px;
 }
-p.title3 {
+p.minutos {
     color: #ECD7DD;
     font-size: 16pt;
 }
@@ -233,22 +232,22 @@ div.song {
     display: flex;
     align-items: center;
 }
-div.imagen1 {
+div.imagenalbum {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-   padding-left: 250px;
+   padding-left: 400px;
 }
-div.imagen1  img{
+div.imagenalbum  img{
     height: 3px;
 }
-div.imagen2 {
+div.reproductor {
     display: flex;
     justify-content:center;
     align-items: center;
     width: 10px;
     height: 10px;
-    gap: 50px;
-    padding-left: 200px
+    gap: 80px;
+    padding-left: 300px;
 }
