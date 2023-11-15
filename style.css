@@ -38,7 +38,7 @@ button.boton {
     width: 250px;
     max-width: 250px;
     background-color: #ECCAD3;
-    height: 90vw;
+    height: 100vw;
     display: inline-block;
 }
  /* este es el logo de la pagina */
@@ -61,15 +61,15 @@ div.Logo1 {
 
 /* este es el espaciado de las listas */
 ul.nav1 {
-    padding-top: 165px;
+    padding-top: 300px;
     font-size: 12pt;
 }
-ul.nav1 img{
+ul.nav1 img {
     margin-left: 50px;
 
 }
 ul.nav2 {
-    padding-top: 354px;
+    padding-top: 300px;
 }
 
 /* esta es la alineacion de la ultima lista con las imagenes */
@@ -112,8 +112,8 @@ h1.titulo {
 
 /* imagen de el album */
 section.Keep img {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
 }
 div.principal img {
@@ -131,20 +131,20 @@ div.principal {
 section.canciones {
     display: grid;
     position: absolute;
-    right: 150px;
-    top: 210px;
+    right: 30px;
+    top: 200px;
 }
 h2.BlackPink {
     font-size: 24pt;
     font-weight: bold;
-    padding: 40px;
+    padding: 10px;
 }
 div.alinear {
     
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 25px;
     gap: 100px;
 }
 div.alinear2 {
@@ -167,17 +167,17 @@ div.scroll {
 /* recomendaciones */
 section.Recommended {
     position: absolute;
-    left: 350px;
+    left: 400px;
     top: 1100px;
 }
 div.albunes {
     display: flex;
-    gap: 100px;
+    gap: 80px;
 
 }
 section.Recommended img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
 }
 
@@ -237,15 +237,18 @@ div.imagen1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-   padding-left: 400px;
+    gap: 30px;
+   padding-left: 250px;
+}
+div.imagen1  img{
+    height: 3px;
 }
 div.imagen2 {
     display: flex;
     justify-content:center;
     align-items: center;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     gap: 50px;
-    padding-left: 300px
+    padding-left: 200px
 }
