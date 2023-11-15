@@ -151,7 +151,7 @@ div.Favoritos {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding-top: 40px;
     gap: 100px;
 }
 div.scroll {

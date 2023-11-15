@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniSpotify</title>
 
-<!-- style ccs -->
+    <!-- style ccs -->
     <link rel="stylesheet" href="style.css">
 
-<!--Google fonds  -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <!--Google fonds  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
 
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 </head>
-<main>
 <body>
-    <header>
+<main>
+    <section>
 
         <!-- este es el buscador -->
 
@@ -66,78 +66,35 @@
 
             </nav>
         </div>
-    </header>
+    </section>
     
     <!-- esto es keep listening -->
 
-<section class="Keep">
-    <h1 class="titulo">Keep listening</h1>
-    <img src="image/BLACKPINK-_The_Album.png" alt="">
+    <section class="Keep">
+        <h1 class="titulo">Keep listening</h1>
+        <img src="image/BLACKPINK-_The_Album.png" alt="">
 
-    <div class="principal">
-        <p> 0:00</p>
-        <img src="image/image 7.svg" alt="">
-        <p>3:00</p>
-    </div>
-</section>
+        <div class="principal">
+            <p> 0:00</p>
+            <img src="image/image 7.svg" alt="">
+            <p>3:00</p>
+        </div>
+    </section>
 
 <!-- Estas son las canciones -->
 
-<section class="canciones">
-    <h2 class="BlackPink">B l a c k P i n k</h2>
+    <section class="canciones"> 
+        <h2 class="BlackPink">B l a c k P i n k</h2>
 
-<div class="scroll">
-    
-    <div class="alinear">
-        <img src="image/Frame (1).svg" alt="">
-        <h3>Cancion</h3>
-        <p>3:00</p>
-        <img src="image/image 8.svg" alt="">
-    </div>
+        <div id="track_list" class="scroll">
 
-    <div class="alinear">
-        <img src="image/Frame (1).svg" alt="">
-        <h3>Cancion</h3>
-        <p>3:00</p>
-        <img src="image/image 8.svg" alt="">
-    </div>
-
-    <div class="alinear">
-        <img src="image/Frame (1).svg" alt="">
-        <h3>Cancion</h3>
-        <p>3:00</p>
-        <img src="image/image 8.svg" alt="">
-    </div>
-
-    <div class="alinear">
-        <img src="image/Frame (1).svg" alt="">
-        <h3>Cancion</h3>
-        <p>3:00</p>
-        <img src="image/image 8.svg" alt="">
-    </div>
-
-    <div class="alinear">
-        <img src="image/Frame (1).svg" alt="">
-        <h3>Cancion</h3>
-        <p>3:00</p>
-        <img src="image/image 8.svg" alt="">
-    </div>
-
-    <div class="alinear">
-        <img src="image/Frame (1).svg" alt="">
-        <h3>Cancion</h3>
-        <p>3:00</p>
-        <img src="image/image 8.svg" alt="">
-    </div>
-</div>
-
-    <div class="Favoritos">
-        <img src="image/image 4.svg" alt="">
-        <img src="image/image 5.png" alt="">
-        <img src="image/image 3.svg" alt="">
-    </div>
-
-</section>
+        </div>
+        <div class="Favoritos">
+            <img src="image/image 4.svg" alt="">
+            <img src="image/image 5.png" alt="">
+            <img src="image/image 3.svg" alt="">
+        </div>
+    </section>
 
 
 <!-- Estas son las recomendaciones -->
@@ -145,9 +102,9 @@
 <section class="Recommended">
 
     <h2 class="recomendaciones">Recommended</h2>
-
-<div class="albunes"> 
-
+    
+    <div class="albunes"> 
+        
     <div>
         <img src="image/product_1027937.webp" alt="">
         <h3 class="subtitulo">Forever Young</h3>
@@ -176,12 +133,12 @@
 <!-- Current song -->
 
     <footer class="footer">
-  <div class="song"> 
+        <div class="song"> 
 
-        <div class="Love">
-            <img src="image/BLACKPINK-_The_Album.png" alt="">
+            <div class="Love">
+                <img src="image/BLACKPINK-_The_Album.png" alt="">
         </div>
-
+        
         <div>
             <h3 class="titulocancion">Love to hate me</h3>
             <p class="grupo">BlackPink</p>
@@ -193,6 +150,7 @@
             <img src="image/Rectangle 14.png" alt="">
             <p class="minutos">3:00</p>
         </div>
+            <script src="/scrip.js"></script>
 
         <div class="reproductor">
             <img src="image/Frame (2).svg" alt="">
@@ -202,7 +160,7 @@
   </div>
 
    </main>
- </body>
 </footer>
+</body>
 
 </html>
