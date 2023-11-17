@@ -23,9 +23,7 @@ axios.get('https://leonardoapi.onrender.com/music')
         </div>
         
         `
-        div.addEventListener('click', () => {
-            console.log(`el usuario hizo click en ${song.title}`)
-        } )
+        
 
      // agrego el componente al   
     track_list.appendChild(div)

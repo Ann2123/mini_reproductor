@@ -8,10 +8,9 @@
     border-bottom: none;
     padding: 0%;
     margin: 0%;
-    box-sizing: border-box;
     text-align: left;
+    font-size: 16pt;
 }
-
 body {
     background-color: #F6E7E7;
 }
@@ -30,20 +29,19 @@ button.boton {
     border-radius: 10px;
     padding-left: 150px;
     padding-right: 150px;
-
 }
-/* este es el menu de navegacion */
 
+/* este es el menu de navegacion */
 .container {
     width: 250px;
     max-width: 250px;
     background-color: #ECCAD3;
     height: 100vw;
-    display: inline-block;
+    display: grid;
 }
- /* este es el logo de la pagina */
 
-div.Logo1 {
+ /* este es el logo de la pagina */
+div.Logo {
     margin-top: 52px ;
     padding-bottom: 100px ;
     margin-left: 52px;
@@ -51,52 +49,42 @@ div.Logo1 {
 
 /* esta es la alineacion de las listas */
 .container nav li {
-    display: block;
     text-decoration: none;
     font-size: 16pt;
     padding-bottom: 48px;
     margin-left: 52px;
-    
 }
 
 /* este es el espaciado de las listas */
-ul.nav1 {
-    padding-top: 300px;
+ul.nav {
     font-size: 12pt;
+    padding-bottom: 300px;
 }
-ul.nav1 img {
+img.agregar {
     margin-left: 50px;
-
-}
-ul.nav2 {
-    padding-top: 300px;
 }
 
 /* esta es la alineacion de la ultima lista con las imagenes */
-div.Log  {
-    display: flex;
-    justify-content: center;
+div.botones_nav  {
+        display: flex;
+       justify-content: center;
 }
-div.Log img {
+img.Logout {
     width: 20px;
     height: 20px;
-    
 }
-
-div.Log2  {
+div.botones_nav {
     display: flex;
     justify-content: center;
 }
-div.Log2 img {
-    display: flex;
-    align-items: flex-start;
+img.ajustes {
     width: 29px;
     height: 29px;    
 }
 
+
 /* Keep listening */
 section.Keep {
-    display: grid;
     position: absolute;
     left: 350px;
     top: 190px;  
@@ -106,8 +94,7 @@ section.Keep {
 h1.titulo {
     font-size: 36pt;
     padding-bottom: 30px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 /* imagen de el album */
@@ -125,64 +112,56 @@ div.principal {
     justify-content: center;
     align-items: center;
     gap: 40px;
-   
-    /* blackpink song */
 }
+   
+/* blackpink song */
 section.canciones {
     display: grid;
     position: absolute;
     right: 100px;
-    top: 210px;
+    top: 230px;
 }
 h2.BlackPink {
     font-size: 24pt;
     font-weight: bold;
+    padding-bottom: 60px;
+    margin-left: 40px;
 }
-div.alinear {
-    
+div.alinear {   
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 60px;
-    gap: 100px;
+    justify-content: space-between;
 }
-div.Favoritos {
-    
+div.Favoritos { 
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 40px;
     gap: 100px;
 }
 div.scroll {
-
     width: 700px;
-    height: 500px;
+    height: 450px;
     overflow-y: scroll;
-    scroll-behavior: smooth;
-    scrollbar-gutter:initial ;
 }
 
 /* recomendaciones */
-section.Recommended {
+section.recomendaciones {
     position: absolute;
     left: 350px;
     top: 1100px;
 }
-div.albunes {
-    display: flex;
-    gap: 80px;
-
-}
-section.Recommended img {
+section.recomendaciones img {
     width: 220px;
     height: 220px;
     border-radius: 10px;
 }
-
-h2.recomendaciones {
+section.recomendaciones h2 {
     font-size: 24pt;
     padding-bottom: 50px;
+}
+div.albunes {
+    display: flex;
+    gap: 80px;
 }
 h3.subtitulo {
     font-size: 16pt;
@@ -193,9 +172,7 @@ p.Artista {
 }
 
 /* current song */
-
 footer.footer {
-    
     position: sticky;
     background-color: #8B385B;
     opacity: 90%;
@@ -203,7 +180,14 @@ footer.footer {
     bottom: 20px;
     margin: 20px;
     padding: 30px;
-
+}
+div.song {
+    display: flex;
+    align-items: center;
+}
+div.song p {
+    color: #ECD7DD;
+    font-size: 12pt;
 }
 div.Love img {
     width: 150px;
@@ -211,36 +195,22 @@ div.Love img {
     border-radius: 10px;   
 }
 h3.titulocancion {
-    font-size: 16pt;
     color: #FC7E9F;
-    padding-left: 20px;
     position: absolute;
+    padding-left: 20px;
     top: 40px;
 }
 p.grupo {
-    font-size: 12pt;
-    color: #ECD7DD;
     padding-left: 20px;
     position: absolute;
     top: 80px;
 }
-p.minutos {
-    color: #ECD7DD;
-    font-size: 16pt;
-}
-div.song {
-    display: flex;
-    align-items: center;
-}
-div.imagenalbum {
+div.Barra {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
    padding-left: 400px;
-}
-div.imagenalbum  img{
-    height: 3px;
 }
 div.reproductor {
     display: flex;
